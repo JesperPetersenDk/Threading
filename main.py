@@ -21,5 +21,5 @@ if __name__ == "__main__":
 
     for index, thread in enumerate(thread):
         logging.info("Main    : wait for the thread to finish %d", index)
-        x.join()
+        #x.join()
         logging.info("Main    : all %d done", index)
